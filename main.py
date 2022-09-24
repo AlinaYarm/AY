@@ -1,13 +1,13 @@
-from typing import list, dict
+from typing import List, Dict
 
-a: list = [1, 2, 3]
+a: List = [1, 2, 3]
 while a:
     i=a.pop()
     print(i)
 
-d:dict={'a':1, 'b':2}
+d:Dict={'a':1, 'b':2}
 
-def my_func(s: list):
+def my_func(s: List):
     for i in s:
         print(i)
 
